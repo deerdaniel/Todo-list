@@ -1,7 +1,8 @@
-﻿internal class Program
+﻿using TodoList;
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        MenuUI.PrintMenu();
     }
 }
